@@ -14,8 +14,6 @@ plot(reduced$fitted, rstudent(reduced), pch = 20) # Plotting residuals
 qqnorm(rstudent(reduced), pch = 20) # Plotting Q-Q plot
 qqline(rstudent(reduced), col = "red")  # Plotting line in Q-Q plot
 
-ad.test(rstudent(reduced))  # Finding p-value, small => reject H_0
-
 
 ## Subproblem d)
 
